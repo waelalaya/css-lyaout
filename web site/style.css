@@ -1,0 +1,264 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+.navb{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 80%;
+margin-left: 10%;
+}
+
+.navb ul{
+    display: flex;
+}
+
+.navb ul li{
+    margin-left: 5px;
+    list-style: none;
+}
+
+
+
+#header {
+width:100%;
+height: 500px;
+
+display: flex;
+flex-direction: column;   
+}
+.image{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 80px;
+  
+    
+}
+.image h1 {
+    text-align:center;
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+    
+
+ 
+}
+
+p{
+    font: 16px roboto;
+    color: #747474;
+    margin: 12.8px 0px;
+}
+.parag1{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 60px;
+
+}
+.parag1 p{
+    width: 48%;
+    font-size: 24px;
+}
+#service1{
+    background: #00ccb1;
+    width: 30%;
+margin-top: 50px;
+ display: inline-block;
+ height: 400px;
+ border-radius: 10px;
+}
+.logo1{
+    margin: 40px;
+}
+.logo1 h1 {
+    font-size: 40px;
+}
+
+#service2{
+    background: #3d83df;
+    width: 30%;
+margin-top: 50px;
+display: inline-block;
+border-radius: 10px;
+}
+.logo2{
+    margin: 40px;
+}
+.logo2 h1 {
+    font-size: 40px;
+}
+#service3{
+    background: #1b2734;
+    width: 30%;
+margin-top: 50px;
+display: inline-block;
+border-radius: 10px;
+}
+.logo3{
+    margin: 40px;
+}
+.logo3 h1 {
+    font-size: 40px;
+}
+#service{
+ display: flex;
+ width: 80%;
+ justify-content: space-between;
+ margin-left: 10%;
+ margin-top: 60px;
+}
+#wrap h1{
+    margin-top: 30%;
+    margin-left: 10%;
+    color: #00b39b;
+    width: 33%;
+}
+
+.brands__logos{
+   width: fit-content;
+   margin-left: 40%;
+   margin-top: -4%;
+   display: flex;
+   overflow: auto;
+}
+.option{
+    border: solid 5px black;
+}
+.logo ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.logo ul li{
+    margin-left: 15px;
+}
+select {
+    margin-left: 45px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.stats {
+    background: #e5faf8;
+    background-image: linear-gradient(
+-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+}
+.section__inner h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.stats__header p {
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+}
+.stats__item {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    width: 200px;
+    display: flex;
+    
+}
+.stats__item h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+}
+.stats__item p {
+    margin: 0;
+    color: gray;
+    font-size: 20px;
+}
+.col-2 {
+width: 50%;
+padding: 10px;
+float: left;
+}
+.col-22 {
+    display: flex;
+    margin-left: 800px;
+    margin-top: -100px;
+    width: 500px;
+
+}
+.col-23 {
+    display: flex;
+    width: 500px;
+    margin-left: 800px;
+}
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.offices__slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.offices__header h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.offices__header p {
+    font-size: 30px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+.office__desc {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+    display: flex;
+    justify-content: space-between;
+}
+.join-us h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+   
+    text-align: center;
+}
+.join-us {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+
+    
+
+
+
